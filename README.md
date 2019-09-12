@@ -78,7 +78,7 @@ In order to gauge how well the model was working, I split my image and steering 
 
 To combat the overfitting, I modified the model so that there are dropout layers (with a keep probability of 0.6) at the end of the convolutional layers and between the fully connected layers.
 
-Then I examined the driving log csv file. There are much more occurrences of zero or near zero steering angles than large angles. I randomly dropped 92% of the images with zero steering angles. I also increased the occurrences of large steering angles by appending their images and angles more times. This helps with dealing with sharp turns.
+Then I examined the driving log csv file. There are much more occurrences of zero or near zero steering angles than large angles. I randomly dropped 92% of the images with zero steering angles. I also increased the occurrences of large steering angles by appending their images and angles more times. This helps dealing with sharp turns.
 
 The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track. To improve the driving behavior in these cases, I adjusted the offset angles of the images taken from the left and right cameras.
 
