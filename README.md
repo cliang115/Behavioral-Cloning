@@ -105,7 +105,7 @@ The final model architecture (model.py lines 56-74) consisted of a convolution n
 
 #### 3. Creation of the Training Set & Training Process
 
-I used the images and data provided by Udacity including the images from the center, left and right cameras. Here is an example of center lane driving and recording from the left and right sides of the road:
+I used the data and images from the center, left and right cameras. Here is an example of center lane driving and recording from the left and right sides of the road:
 
 ![alt text][image1]
 
